@@ -1,3 +1,4 @@
+### THIS FILE WAS AUTO-GENERATED ###
 from __future__ import annotations
 
 from .actor import Actor
