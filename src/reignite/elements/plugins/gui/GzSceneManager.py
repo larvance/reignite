@@ -4,7 +4,7 @@ from reignite.elements.plugins.gui.GzGui import GzGui
 
 class GzSceneManagerPlugin(Plugin):
     def __init__(self, name="Scene Manager", **gui_kwargs):
-        super().__init__(name=name, filename="MinimalScene", elements=[
+        super().__init__(name=name, filename="GzSceneManager", elements=[
             GzGui(**{"resizable": False, "width": 5.0, "height": 5.0, "state": "floating", "showTitleBar": False,
                      **gui_kwargs}),
         ])
